@@ -5,7 +5,7 @@ import org.apache.flink.api.scala._
 import org.apache.flink.api.scala.extensions._
 import org.apache.flink.api.java.operators.DeltaIteration
 
-object SumLinesNumber {
+object SumLineNumbers {
   def main(args: Array[String]): Unit = {
     val params = ParameterTool.fromArgs(args)
     val filename = params.get("filename", "files/sumlines/text.txt")
